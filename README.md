@@ -16,3 +16,15 @@ found the code implementation for the extension regarding speeding up NeRF w/ Ha
 [Instant NGP in 100 lines of PyTorch code | NeRF #13](https://www.youtube.com/watch?v=PXbPeG5PJd0), can read up on this feature and get a suitable implementation
 
 # TBD extention
+[KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://www.youtube.com/watch?v=pgIgj3so-Z8)
+
+
+# Resources
+Owen: amazing presentation by the original author of Instant NeRF (the one where they hash the input data to make training times super fast on the gpu)
+learning points:
+- neural network optimization: the usefulness of smaller neural networks, how to modify your data structure to optimize for training, and how to optimize your training algorithm to avoid unnecessary calculations
+- how instant NeRF works in the abstract
+- some really cool slides and demos, which we can use for our own presentation, (please see from 35:30 to 37:30 !)
+-> to add on to this above point, we might be able to have some really cool results working with images that have mirrors, for example.
+https://youtu.be/CGqhCc3BrKk?si=xV4lsjTYFxR4yrjw
+
